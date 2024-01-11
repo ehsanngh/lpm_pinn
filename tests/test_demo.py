@@ -3,7 +3,7 @@ from plpm import numerical_solver, calculate_PLV
 from plpm import ModelWrapper
 
 space_dim = 10
-model_file = 'MainModel10D'
+model_file = 'MainModel10DFinal'
 
 main_model = ModelWrapper.Model(model_file=model_file, d=space_dim)
 # Defining the case
@@ -18,7 +18,7 @@ V_num = numerical_solver(CASE, dt=0.5, n_cycle=30)
 
 # Estimating with the trained pinn, if the dimension of the model is not 10,
 # CASE should be modified accordingly.
-V_pinn = main_model.predict_CASE(CASE, num_timepoints=801)
+V_pinn = main_model.predict_CASE(CASE, num_timepoints=1601)
 
 error = torch.mean(torch.abs(V_pinn[:, 0] - V_num[:, 0]) / V_num[:, 0])
-print('The RMAE between Numerical Method and the PINN for the left ventricle volume waveform is ', error)
+print('The RMAE between Numerical Method and the PINN for the left ventricle volume waveform is', error)

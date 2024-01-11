@@ -7,7 +7,6 @@ We recommend using the editable installation mode. Follow these steps to install
 git clone https://github.com/ehsanngh/lpm_pinn.git
 cd lpm_pinn
 pip install -e .
-pip install -r requirements.txt
 ```
 
 To verify if the code has been installed correctly, run the following command:

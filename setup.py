@@ -38,11 +38,11 @@ config = {
         {'name': "Ehsan Naghavi", 'email': "naghavis@msu.edu"},
         ],
     'version': VERSION,
-    'install_requires': ['numpy', 'pytorch', 'matplotlib', 'SALib', 'scipy', 'jupyter notebook'],
+    'install_requires': ['numpy', 'torch', 'matplotlib', 'SALib', 'scipy', 'jupyter', 'notebook'],
     'license': 'GNU GENERAL PUBLIC LICENSE',
     'scripts': [],
     'include_package_data': True,
-    'package_data': {'': ['data/']},
+    'package_data': {'': ['data']},
     'classifiers': [
         'Topic :: Scientific/Engineering',
         'Programming Language :: Python :: 3'

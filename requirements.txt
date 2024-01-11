@@ -1,6 +1,0 @@
-numpy
-pytorch
-matplotlib
-SALib
-scipy
-jupyter notebook
