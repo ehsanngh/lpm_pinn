@@ -39,7 +39,7 @@ config = {
         ],
     'version': VERSION,
     'install_requires': ['numpy', 'torch', 'matplotlib', 'SALib', 'scipy', 'jupyter', 'notebook'],
-    'license': 'GNU GENERAL PUBLIC LICENSE',
+    'license': 'MIT license',
     'scripts': [],
     'include_package_data': True,
     'package_data': {'': ['data']},
