@@ -1,0 +1,9 @@
+{
+    "input_params": ["R_av", "R_ao", "C_ao", "R_art", "C_art", "R_vc", "C_vc", "R_mv", "Ees_lv", "trans_lv"],
+    "snapshot_path": "./plpm/models/model/MainModel10DFinal.pt",
+    "loss_path": "./data/loss/losses10DFinal",
+    "num_layers": 5,
+    "hidden_size": 256,
+    "num_cases": 10000,
+    "seed": 17
+}

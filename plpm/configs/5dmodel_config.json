@@ -1,0 +1,9 @@
+{
+    "input_params": ["C_art", "C_vc", "Ees_lv", "Tmax_lv", "trans_lv"],
+    "snapshot_path": "./plpm/models/model/MainModel5D.pt",
+    "loss_path": "./data/loss/losses5D",
+    "num_layers": 5,
+    "hidden_size": 128,
+    "num_cases": 10000,
+    "seed": 0
+}
