@@ -2,13 +2,15 @@
 
 This repository contains the implementation of a Physics-informed Neural Network (PINN) framework for the rapid prediction of hemodynamics in the closed-loop cardiovascular system. This model is described by a set of ODEs associated with a lumped parameter description of the circulatory system. The paper associated with this work is:
 ```
-@misc{naghavi2024rapid,
-      title={Rapid Estimation of Left Ventricular Contractility with a Physics-Informed Neural Network Inverse Modeling Approach}, 
-      author={Ehsan Naghavi and Haifeng Wang and Lei Fan and Jenny S. Choy and Ghassan Kassab and Seungik Baek and Lik-Chuan Lee},
-      year={2024},
-      eprint={2401.07331},
-      archivePrefix={arXiv},
-      primaryClass={cs.CE}
+@article{NAGHAVI2024102995,
+title = {Rapid estimation of left ventricular contractility with a physics-informed neural network inverse modeling approach},
+journal = {Artificial Intelligence in Medicine},
+pages = {102995},
+year = {2024},
+issn = {0933-3657},
+doi = {https://doi.org/10.1016/j.artmed.2024.102995},
+url = {https://www.sciencedirect.com/science/article/pii/S0933365724002379},
+author = {Ehsan Naghavi and Haifeng Wang and Lei Fan and Jenny S. Choy and Ghassan Kassab and Seungik Baek and Lik-Chuan Lee},
 }
 ```
 
